@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 24px;
+}
+.btn-brand {
+  background-color: #60a6e7;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-brand:hover {
+  background-color: #60a6e7b3;
+  color: black;
+}
+/* NAV */
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.5s ease;
+}
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 700;
+  margin: 0rem 1rem 0rem 0rem;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link.active {
+  color: black;
+}
+.logo-icon {
+  width: 70%;
+}
+.navbar-toggler {
+  color: #a335d387;
+  background-color: #a335d358;
+  border: 2px solid wheat;
+}
+.scrolled {
+  color: #212529;
+  background: linear-gradient(white, rgba(255, 255, 255, 0.51));
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  z-index: 100;
+}
+.scrolled .navbar-nav .nav-link {
+  color: #212529;
+}
+/* BODY */
+#hero {
+  background-color: #0a5999;
+  overflow: hidden;
+}
+
+.hero-content h1 {
+  font-size: 3.6em;
+  font-weight: 800;
+}
+.hero-content p {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+/*  */
+.hero-images {
+  position: relative;
+  height: 100%;
+}
+
+.img-1 {
+  top: 100%;
+  bottom: 0;
+  width: 80%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.img-2 {
+  width: 60%;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: -10%;
+}
+
+.line-img {
+  background-image: url(/img/background-remove/3-_1_-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+}

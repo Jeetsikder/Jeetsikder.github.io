@@ -4,7 +4,8 @@
 }
 
 :root {
-  --c-brand: #0a5999;
+  /* --c-brand: #0a5999; */
+  --c-brand: #131e62;
   --c-brand-light: #60a6e7;
   --c-brand-light-hover: #60a6e7b3;
   /* --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08); */
@@ -276,4 +277,79 @@ img {
   font-weight: 600;
   font-size: smaller;
 }
-/* HOSTING */
+/* //HOSTING */
+
+/* FAQ */
+.faq-section {
+  min-height: 60vh;
+  width: 100%;
+  padding: 3vh;
+  border-bottom: var(--c-border-bottom);
+}
+.faq-section .faq-container h5 {
+  color: white;
+  font-weight: 800;
+  font-size: x-large;
+}
+.faq-section .faq-container p {
+  color: rgba(255, 255, 255, 0.765);
+  font-weight: 600;
+  font-size: smaller;
+}
+.faq-card-yellow {
+  background: linear-gradient(#f5d92f, #f3ac0e);
+  box-shadow: var(--box-shadow);
+  min-height: 8vh;
+  width: 100%;
+}
+.faq-card-blue {
+  background: linear-gradient(#7aa1eb, #15469f);
+  box-shadow: var(--box-shadow);
+  min-height: 8vh;
+  width: 100%;
+}
+/* //FAQ */
+
+/* CONTACT US */
+.contact-us-section {
+  min-height: 60vh;
+  width: 100%;
+  padding: 3vh;
+  border-bottom: var(--c-border-bottom);
+}
+.contact-us-section .contact-us-container h5 {
+  color: white;
+  font-weight: 800;
+  font-size: x-large;
+}
+.contact-us-section .contact-us-container p {
+  color: rgba(255, 255, 255, 0.765);
+  font-weight: 600;
+  font-size: small;
+}
+.contact-us-section .contact-us-container .form-control {
+  padding: 10px;
+  background: linear-gradient(#9ba4d240, #7881b2c3);
+  color: white;
+}
+.contact-us-section .contact-us-container .form-control:focus {
+  box-shadow: none;
+  border-color: var(--c-brand);
+}
+.contact-us-section .contact-us-container .form-select {
+  padding: 10px;
+  font-size: small;
+  font-weight: 800;
+  /* background: linear-gradient(#9ba4d240, #7881b2c3); */
+  color: black;
+}
+.contact-us-section .contact-us-container .form-select:focus {
+  box-shadow: none;
+  border-color: var(--c-brand);
+}
+.contact-us-section .contact-us-container .form-control::placeholder {
+  font-size: small;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.688);
+}
+/* //CONTACT US */

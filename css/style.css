@@ -370,7 +370,7 @@ img {
   border-bottom: var(--c-border-bottom);
 }
 .footer-container {
-  height: 30vh;
+  min-height: 6vh;
   width: 100%;
   border-top: 1vh solid #5f6298;
   background: #9c9fcb;

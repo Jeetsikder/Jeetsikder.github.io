@@ -2,7 +2,10 @@
   padding: 0;
   margin: 0;
 }
-
+::selection {
+  background: #f3bc19;
+  color: black;
+}
 :root {
   /* --c-brand: #0a5999; */
   --c-brand: #131e62;
@@ -43,7 +46,13 @@ img {
   align-items: center;
   justify-content: center;
 }
-.btn-brand:hover {
+
+.btn-brand:hover,
+.btn-brand:focus {
+  background-color: var(--c-brand-light-hover);
+  color: black;
+}
+.btn.btn-brand:focus {
   background-color: var(--c-brand-light-hover);
   color: black;
 }
@@ -353,3 +362,124 @@ img {
   color: rgba(255, 255, 255, 0.688);
 }
 /* //CONTACT US */
+
+/* FOOTER */
+.footer-section {
+  min-height: 30vh;
+  width: 100%;
+  border-bottom: var(--c-border-bottom);
+}
+.footer-container {
+  height: 30vh;
+  width: 100%;
+  border-top: 1vh solid #5f6298;
+  background: #9c9fcb;
+}
+.footer-title h1 {
+  font-size: x-large;
+  font-weight: 800;
+  color: #ffffff;
+}
+.social-link a {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: var(--transition);
+}
+.social-link a :hover {
+  color: var(--c-brand);
+  transform: scale(1.3);
+}
+.social-link i {
+  font-size: 2.1rem;
+  color: #ffffff;
+  transition: var(--transition);
+}
+
+.footer-phone-message-box {
+  position: relative;
+}
+.footer-phone-message-box::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 50%;
+  background: #ffffff53;
+  left: 0;
+  top: 25%;
+}
+.footer-phone-message-box .social-link i {
+  font-size: 1.05em;
+  font-weight: 600;
+}
+.footer-body-bottom {
+  min-height: 6vh;
+  width: 100%;
+  background: #5f6298;
+}
+.footer-body-bottom h6 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: small;
+  transition: var(--transition);
+}
+.footer-body-bottom h6:hover {
+  transform: scale(1.1);
+  color: var(--c-brand);
+  cursor: pointer;
+}
+.footer-bottom {
+  min-height: 1vh;
+  background: var(--c-brand);
+}
+.footer-bottom h4 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: larger;
+}
+/* FOOTER */
+
+/* CLIENT */
+.client-section {
+  min-height: 60vh;
+  width: 100%;
+  padding: 3vh;
+  border-bottom: var(--c-border-bottom);
+}
+.client-section .container h4 {
+  color: #ffffff;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.review-carousel {
+  width: 100%;
+  /* background-color: white; */
+}
+.review {
+  width: 100%;
+  min-height: auto;
+}
+.review-content {
+  min-height: 50vh;
+  background: linear-gradient(#7299e5, #0a3b96);
+}
+.customer-say p {
+  color: #ffffff;
+  font-size: small;
+  font-weight: 400;
+}
+.customer-name h4 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: large;
+}
+.customer-position p {
+  color: #ffffff;
+  font-size: small;
+  font-weight: 400;
+}
+/* CLIENT */

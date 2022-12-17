@@ -270,7 +270,7 @@ img {
 }
 .content-box .content {
   width: 100%;
-  min-height: 40vh;
+  min-height: 20vh;
   background: linear-gradient(#3d6fc5ce, #071c3fd1), url(/img/10.png);
   background-position: center;
   background-size: cover;

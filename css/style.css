@@ -333,7 +333,7 @@ img {
   min-height: 60vh;
   width: 100%;
   padding: 3vh;
-  padding-top: 80px;
+  padding-top: 110px;
   padding-bottom: 80px;
   border-bottom: var(--c-border-bottom);
 }
@@ -458,6 +458,8 @@ img {
   min-height: 60vh;
   width: 100%;
   padding: 3vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
   border-bottom: var(--c-border-bottom);
 }
 .client-section .container h4 {

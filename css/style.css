@@ -97,11 +97,12 @@ img {
 .landing-container {
   border-bottom: var(--c-border-bottom);
 }
-#hero {
-  background-color: var(--c-brand);
-  /* overflow: hidden; */
+.home-section {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
-
 .hero-content h1 {
   font-size: 3.6em;
   font-weight: 800;
@@ -149,6 +150,8 @@ img {
   min-height: 100vh;
   width: 100%;
   padding: 3vh;
+  padding-top: 18vh;
+  padding-bottom: 9vh;
   border-bottom: var(--c-border-bottom);
 }
 

@@ -270,7 +270,7 @@ img {
 }
 .content-box .content {
   width: 100%;
-  height: 40vh;
+  min-height: 40vh;
   background: linear-gradient(#3d6fc5ce, #071c3fd1), url(/img/10.png);
   background-position: center;
   background-size: cover;
@@ -476,7 +476,7 @@ img {
   font-size: small;
   font-weight: 400;
 }
-.customer-name h4 {
+.customer-info-bottom .customer-name h4 {
   color: #ffffff;
   font-weight: 700;
   font-size: large;

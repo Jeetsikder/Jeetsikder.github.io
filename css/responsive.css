@@ -42,10 +42,10 @@
   .test {
     margin-top: 11%;
   }
-  .customer-name h4 {
+  .customer-info-bottom .customer-name h4 {
     color: #ffffff;
     font-weight: 700;
-    font-size: medium;
+    font-size: small;
   }
 }
 @media screen and (max-width: 500px) {

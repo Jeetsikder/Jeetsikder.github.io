@@ -467,6 +467,10 @@ img {
   min-height: 50vh;
   background: linear-gradient(#7299e5, #0a3b96);
 }
+.customer-img img {
+  min-height: 20vh;
+  min-width: 20vw;
+}
 .customer-say p {
   color: #ffffff;
   font-size: small;

@@ -42,6 +42,11 @@
   .test {
     margin-top: 11%;
   }
+  .customer-name h4 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: larger;
+  }
 }
 @media screen and (max-width: 500px) {
   .test {

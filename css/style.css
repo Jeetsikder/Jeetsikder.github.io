@@ -259,6 +259,8 @@ img {
   min-height: 60vh;
   width: 100%;
   padding: 3vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
   border-bottom: var(--c-border-bottom);
 }
 .hosting-section .container-title h1 {
@@ -298,6 +300,8 @@ img {
   min-height: 60vh;
   width: 100%;
   padding: 3vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
   border-bottom: var(--c-border-bottom);
 }
 .faq-section .faq-container h5 {
@@ -329,6 +333,8 @@ img {
   min-height: 60vh;
   width: 100%;
   padding: 3vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
   border-bottom: var(--c-border-bottom);
 }
 .contact-us-section .contact-us-container h5 {

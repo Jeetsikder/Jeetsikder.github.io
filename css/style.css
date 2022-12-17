@@ -100,8 +100,8 @@ img {
 .home-section {
   min-height: 100vh;
   width: 100%;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .hero-content h1 {
   font-size: 3.6em;
@@ -145,13 +145,12 @@ img {
 }
 
 /* ABOUT US */
-
 .about-section {
   min-height: 100vh;
   width: 100%;
   padding: 3vh;
-  padding-top: 18vh;
-  padding-bottom: 9vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
   border-bottom: var(--c-border-bottom);
 }
 
@@ -186,6 +185,8 @@ img {
   min-height: 100vh;
   width: 100%;
   padding: 3vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
   border-bottom: var(--c-border-bottom);
 }
 .web-development-section .container-title h1 {

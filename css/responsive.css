@@ -45,7 +45,7 @@
   .customer-name h4 {
     color: #ffffff;
     font-weight: 700;
-    font-size: larger;
+    font-size: medium;
   }
 }
 @media screen and (max-width: 500px) {

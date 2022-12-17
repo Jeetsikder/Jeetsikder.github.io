@@ -263,14 +263,14 @@ img {
 }
 .hosting-section .content-box {
   background-color: #325ca0;
-  min-height: 40vh;
+  min-height: 30vh;
 }
 .content-box {
   transition: var(--transition);
 }
 .content-box .content {
   width: 100%;
-  min-height: 20vh;
+  min-height: 30vh;
   background: linear-gradient(#3d6fc5ce, #071c3fd1), url(/img/10.png);
   background-position: center;
   background-size: cover;

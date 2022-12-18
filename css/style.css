@@ -490,7 +490,7 @@ img {
 }
 .customer-img img {
   min-height: 20vh;
-  min-width: 20vw;
+  min-width: 15vw;
 }
 .customer-say p {
   color: #ffffff;

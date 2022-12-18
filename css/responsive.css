@@ -2,8 +2,6 @@
   .test {
     margin-top: 8%;
   }
-}
-@media screen and (max-width: 999px) {
   .img-2 {
     width: 60%;
     height: 50%;
@@ -14,6 +12,19 @@
     right: 3%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .img-2 {
+    width: 70%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 3%;
+    right: -15%;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .footer-phone-message-box::after {
     content: "";
@@ -24,17 +35,6 @@
 
     bottom: -10px;
     left: 0;
-  }
-}
-@media screen and (max-width: 800px) {
-  .img-2 {
-    width: 70%;
-    height: 50%;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    bottom: 3%;
-    right: -15%;
   }
 }
 

@@ -67,4 +67,11 @@
   .test {
     margin-top: 20%;
   }
+  .hero-content h1 {
+    font-size: 1.6em;
+    font-weight: 800;
+  }
+  .home-section {
+    overflow: hidden;
+  }
 }

@@ -1,5 +1,9 @@
 body {
-  background-color: black;
+  background-image: url(https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865392.jpg?w=740&t=st=1673710490~exp=1673711090~hmac=39a9671f2614e9cf47e89f3a44930bc5945c76c3b18b294af1162a13d116889b);
+  background-position: center;
+  background-size: cover;
+  padding: 2.5vh 3vw 4vh 3vw;
+  color: #ffffffff;
 }
 
 .hero {

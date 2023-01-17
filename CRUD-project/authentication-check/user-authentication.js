@@ -17,7 +17,9 @@ submit.addEventListener("click", (e) => {
     .then((response) => response.text())
     .then((response) => {
       console.log(response);
-      loation.replace(`${response}`);
+      location.replace(`${response}`);
     })
     .catch((errorFetch) => console.log(errorFetch));
+  document.getElementById("emailId").value = "";
+  document.getElementById("password").value = "";
 });

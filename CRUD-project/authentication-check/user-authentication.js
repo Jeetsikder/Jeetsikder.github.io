@@ -17,7 +17,7 @@ submit.addEventListener("click", (e) => {
     .then((response) => response.text())
     .then((response) => {
       console.log(response);
-      loation.replace(`http://localhost:8000${response}`);
+      loation.replace(`${response}`);
     })
     .catch((errorFetch) => console.log(errorFetch));
 });
